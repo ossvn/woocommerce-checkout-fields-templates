@@ -1,0 +1,1889 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Checkout Fields & Templates v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-17 12:20+0700\n"
+"PO-Revision-Date: 2015-09-21 09:02+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin/document-options-page.php:16 classes/class_wct_admin.php:219
+msgid "Document"
+msgstr "Documento"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:18
+#: classes/admin/edit-modal/wct-edit-col-modal.php:35
+#: classes/admin/edit-modal/wct-edit-date-modal.php:18
+#: classes/admin/edit-modal/wct-edit-file-modal.php:18
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:18
+#: classes/admin/edit-modal/wct-edit-row-modal.php:49
+#: classes/admin/edit-modal/wct-edit-select-modal.php:18
+#: classes/admin/edit-modal/wct-edit-step-modal.php:22
+#: classes/admin/edit-modal/wct-edit-text-modal.php:18
+#: classes/admin/edit-modal/wct-edit-title-modal.php:18
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:23
+#: classes/admin/edit-modal/wct-edit-date-modal.php:23
+#: classes/admin/edit-modal/wct-edit-file-modal.php:23
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:23
+#: classes/admin/edit-modal/wct-edit-select-modal.php:23
+#: classes/admin/edit-modal/wct-edit-text-modal.php:23
+#: classes/admin/edit-modal/wct-edit-title-modal.php:23
+msgid "General"
+msgstr "General"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:24
+#: classes/admin/edit-modal/wct-edit-date-modal.php:24
+#: classes/admin/edit-modal/wct-edit-file-modal.php:24
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:24
+#: classes/admin/edit-modal/wct-edit-select-modal.php:24
+#: classes/admin/edit-modal/wct-edit-text-modal.php:24
+#: classes/admin/edit-modal/wct-edit-title-modal.php:24
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:29
+#: classes/admin/edit-modal/wct-edit-date-modal.php:29
+#: classes/admin/edit-modal/wct-edit-file-modal.php:29
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:29
+#: classes/admin/edit-modal/wct-edit-row-modal.php:98
+#: classes/admin/edit-modal/wct-edit-select-modal.php:29
+#: classes/admin/edit-modal/wct-edit-step-modal.php:29
+#: classes/admin/edit-modal/wct-edit-text-modal.php:29
+#: classes/admin/edit-modal/wct-edit-title-modal.php:29
+#: classes/admin/settings-template-step-2.php:148
+msgid "Title"
+msgstr "Título"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:33
+#: classes/admin/edit-modal/wct-edit-date-modal.php:33
+#: classes/admin/edit-modal/wct-edit-file-modal.php:33
+#: classes/admin/edit-modal/wct-edit-select-modal.php:33
+#: classes/admin/edit-modal/wct-edit-text-modal.php:33
+#: classes/admin/edit-modal/wct-edit-title-modal.php:33
+#: classes/admin/field-additional-options.php:51
+msgid "Placeholder"
+msgstr "Marcador de posición"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:38
+#: classes/admin/edit-modal/wct-edit-select-modal.php:38
+msgid "Options"
+msgstr "Opciones"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:39
+#: classes/class_wct_widget.php:438
+msgid "Image"
+msgstr "Imagen"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:42
+#: classes/admin/edit-modal/wct-edit-select-modal.php:40
+msgid "Enter each choice on a new line."
+msgstr "Entrar en cada opción en una nueva línea."
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:42
+#: classes/admin/edit-modal/wct-edit-select-modal.php:40
+msgid "For more control, you may specify both a value and label like this"
+msgstr "Para mayor control, puede especificar un valor y la etiqueta como esta"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:43
+#: classes/admin/edit-modal/wct-edit-select-modal.php:41
+msgid "option-1 : Option 1"
+msgstr "opción-1: Opción 1"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:43
+#: classes/admin/edit-modal/wct-edit-select-modal.php:41
+msgid "option-2 : Option 2"
+msgstr "opción-2: Opción 2"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:44
+msgid "option-1 : url_for_image_1"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:44
+msgid "option-2 : url_for_image_2"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:47
+#: classes/admin/edit-modal/wct-edit-date-modal.php:38
+#: classes/admin/edit-modal/wct-edit-file-modal.php:43
+#: classes/admin/edit-modal/wct-edit-select-modal.php:48
+#: classes/admin/edit-modal/wct-edit-text-modal.php:38
+#: classes/admin/field-additional-options.php:54
+msgid "Required"
+msgstr "Requerido"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:51
+msgid "Display in order recived page "
+msgstr "Mostrar en la página recibió orden"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:55
+#: classes/admin/edit-modal/wct-edit-date-modal.php:46
+#: classes/admin/edit-modal/wct-edit-file-modal.php:51
+#: classes/admin/edit-modal/wct-edit-select-modal.php:56
+#: classes/admin/edit-modal/wct-edit-text-modal.php:46
+msgid "Display in email order  "
+msgstr "Aparecen en orden de correo electrónico "
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:69
+#: classes/admin/edit-modal/wct-edit-date-modal.php:96
+#: classes/admin/edit-modal/wct-edit-file-modal.php:65
+#: classes/admin/edit-modal/wct-edit-select-modal.php:69
+#: classes/admin/edit-modal/wct-edit-text-modal.php:60
+#: classes/admin/edit-modal/wct-edit-title-modal.php:52
+msgid "Custom class"
+msgstr "Clase personalizada"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:73
+#: classes/admin/edit-modal/wct-edit-date-modal.php:100
+#: classes/admin/edit-modal/wct-edit-file-modal.php:69
+#: classes/admin/edit-modal/wct-edit-select-modal.php:73
+#: classes/admin/edit-modal/wct-edit-text-modal.php:64
+#: classes/class_wct_frontend.php:654 classes/class_wct_frontend.php:696
+msgid "Price"
+msgstr "Precio"
+
+#: classes/admin/edit-modal/wct-edit-checkbox-modal.php:93
+#: classes/admin/edit-modal/wct-edit-col-modal.php:80
+#: classes/admin/edit-modal/wct-edit-date-modal.php:118
+#: classes/admin/edit-modal/wct-edit-file-modal.php:89
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:47
+#: classes/admin/edit-modal/wct-edit-row-modal.php:104
+#: classes/admin/edit-modal/wct-edit-select-modal.php:91
+#: classes/admin/edit-modal/wct-edit-step-modal.php:51
+#: classes/admin/edit-modal/wct-edit-style-modal.php:76
+#: classes/admin/edit-modal/wct-edit-text-modal.php:82
+#: classes/admin/edit-modal/wct-edit-title-modal.php:58
+#: classes/admin/settings-template-step-2.php:550
+msgid "Save changes"
+msgstr "Guardar los cambios"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:22
+msgid "Drag this column"
+msgstr "Arrastre esta columna"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:23
+msgid "Edit this column"
+msgstr "Editar esta columna"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:24
+msgid "Style this column"
+msgstr "Estilo de esta columna"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:25
+msgid "Add new row"
+msgstr "Añadir la nueva fila"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:26
+msgid "Delete this column"
+msgstr "Eliminar esta columna"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:40
+#: classes/admin/edit-modal/wct-edit-row-modal.php:54
+msgid "Id"
+msgstr "ID"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:44
+msgid "Extra Class"
+msgstr "Clase extra"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:52
+#: classes/admin/edit-modal/wct-edit-row-modal.php:63
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:54
+msgid "Col"
+msgstr "Columna"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:55
+#: classes/admin/settings-template-step-2.php:66
+msgid "Step bar"
+msgstr "Bar de paso"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:62
+msgid "Width"
+msgstr "Ancho"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:64
+msgid "Width 1/12"
+msgstr "Ancho 1/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:65
+msgid "Width 2/12"
+msgstr "Ancho 2/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:66
+msgid "Width 3/12"
+msgstr "Ancho 3/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:67
+msgid "Width 4/12"
+msgstr "Ancho 4/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:68
+msgid "Width 5/12"
+msgstr "Ancho 5/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:69
+msgid "Width 6/12"
+msgstr "Ancho 6/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:70
+msgid "Width 7/12"
+msgstr "Ancho 7/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:71
+msgid "Width 8/12"
+msgstr "Ancho 8/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:72
+msgid "Width 9/12"
+msgstr "Ancho 9/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:73
+msgid "Width 10/12"
+msgstr "Ancho 10/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:74
+msgid "Width 11/12"
+msgstr "Ancho 11/12"
+
+#: classes/admin/edit-modal/wct-edit-col-modal.php:75
+msgid "Width 12/12"
+msgstr "Ancho 12/12"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:42
+#: classes/admin/edit-modal/wct-edit-file-modal.php:47
+#: classes/admin/edit-modal/wct-edit-select-modal.php:52
+#: classes/admin/edit-modal/wct-edit-text-modal.php:42
+msgid "Display in order recived  "
+msgstr "Aparecen en orden recived"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:57
+msgid "Style"
+msgstr "Estilo"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:60
+msgid "Cangas"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:61
+msgid "Latoja"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:62
+msgid "Lugo"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:63
+msgid "Melon"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:64
+msgid "Nigran"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:65
+msgid "Santiago"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:66
+msgid "Siena"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:67
+msgid "Vigo"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:79
+msgid "Selectable date range"
+msgstr "Seleccione intervalo de fechas"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:80
+msgid "Min"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:81
+msgid "Max"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:82
+msgid "Exerpt weekend"
+msgstr "Fin de semana de boceto"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:84
+msgid "Specific day"
+msgstr "Día específico"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:88
+msgid "Days to be disabled"
+msgstr "Días para desactivar"
+
+#: classes/admin/edit-modal/wct-edit-date-modal.php:90
+msgid "Ex: 06/14/2015, 06/20/2015"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-file-modal.php:38
+msgid "File allow"
+msgstr "Archivo permite"
+
+#: classes/admin/edit-modal/wct-edit-file-modal.php:40
+msgid "File allow for upload. EX: jpeg|jpg|png."
+msgstr "Archivo para subir. EX: jpeg|jpg|png."
+
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:33
+msgid "Content"
+msgstr "Contenido"
+
+#: classes/admin/edit-modal/wct-edit-order-success-modal.php:40
+#: classes/admin/edit-modal/wct-edit-row-modal.php:58
+msgid "Class"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:20
+msgid "Drag this row"
+msgstr "Arrastre esta fila"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:21
+msgid "Edit this row"
+msgstr "Edite esta fila"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:22
+msgid "Display options"
+msgstr "Opciones de apariencia"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:23
+msgid "Style this row"
+msgstr "Esta fila del estilo"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:24
+msgid "Add new column"
+msgstr "Añadir la nueva fila"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:25
+msgid "Delete this row"
+msgstr "Eliminar esta columna"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:67
+#: classes/admin/edit-modal/wct-edit-row-modal.php:79
+msgid "Row"
+msgstr "Remar"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:68
+#: classes/admin/edit-modal/wct-edit-row-modal.php:80
+msgid "Form checkout"
+msgstr "Pagar"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:69
+msgid "Account step"
+msgstr "Paso de cuenta"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:70
+#: classes/admin/settings-template-step-2.php:409
+msgid "Billing step"
+msgstr "Billing"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:71
+#: classes/admin/settings-template-step-2.php:413
+msgid "Shipping step"
+msgstr "Envío"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:72
+#: classes/admin/settings-template-step-2.php:417
+msgid "Your order step"
+msgstr "Su Pedido"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:74
+msgid "Order success step"
+msgstr "Pago del pedido aceptado"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:81
+msgid "Account block"
+msgstr "Bloqueo de cuenta"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:82
+msgid "Billing block"
+msgstr "Bloque de facturación"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:83
+msgid "Shipping block"
+msgstr "Bloque de envío"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:84
+msgid "Your order block"
+msgstr "Su bloque de orden"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:90
+msgid "Row display"
+msgstr "Hileras en la pantalla"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:92
+msgid "Default"
+msgstr "Por defecto"
+
+#: classes/admin/edit-modal/wct-edit-row-modal.php:93
+#: classes/admin/settings-template-step-1.php:35
+#: classes/class_wct_widget.php:404
+msgid "Accordion"
+msgstr "Acordeón"
+
+#: classes/admin/edit-modal/wct-edit-select-modal.php:44
+msgid "Multiple select"
+msgstr "Selección múltiple"
+
+#: classes/admin/edit-modal/wct-edit-select-modal.php:74
+#: classes/admin/edit-modal/wct-edit-text-modal.php:65
+msgid "Add price"
+msgstr "Añadir precio"
+
+#: classes/admin/edit-modal/wct-edit-step-modal.php:37
+msgid "Step number"
+msgstr "Número de paso"
+
+#: classes/admin/edit-modal/wct-edit-step-modal.php:45
+msgid "ID step content"
+msgstr "Etapa del contenido del anuncio"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:18
+msgid "Styling"
+msgstr "Estilo"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:24
+msgid "CSS"
+msgstr "CSS"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:45
+msgid "Design Options"
+msgstr "Opciones de diseño"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:46
+msgid "Border"
+msgstr "Borde"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:49
+#: classes/admin/edit-modal/wct-edit-style-modal.php:70
+msgid "Select color"
+msgstr "Selecciona el color"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:52
+msgid "Theme defaults"
+msgstr "Theme por defecto"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:53
+msgid "Solid"
+msgstr "Sólido"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:54
+msgid "Dotted"
+msgstr "Dotted"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:55
+msgid "Dashed"
+msgstr "Rayado"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:56
+msgid "None"
+msgstr "Ninguno"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:57
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:22
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:21
+msgid "Hidden"
+msgstr "Oculto"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:58
+msgid "Double"
+msgstr "Doble"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:59
+msgid "Groove"
+msgstr "Ranura"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:60
+msgid "Ridge"
+msgstr "Cresta"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:61
+msgid "Inset"
+msgstr "Insertar"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:62
+msgid "Outset"
+msgstr "Altorrelieve"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:63
+msgid "Initial"
+msgstr "Inicial"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:64
+msgid "Inherit"
+msgstr "Inherit"
+
+#: classes/admin/edit-modal/wct-edit-style-modal.php:67
+msgid "Background"
+msgstr "Fondo"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:38
+msgid "Choose tag"
+msgstr "Elige etiqueta"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:40
+msgid "Choose"
+msgstr "Elegir"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:41
+msgid "H1"
+msgstr "H1"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:42
+msgid "H2"
+msgstr "H2"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:43
+msgid "H3"
+msgstr "H3"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:44
+msgid "H4"
+msgstr "H4"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:45
+msgid "H5"
+msgstr "H5"
+
+#: classes/admin/edit-modal/wct-edit-title-modal.php:46
+msgid "H6"
+msgstr "H6"
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:16
+msgid "Enable conditional logic?"
+msgstr "Lógica"
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:21
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:20
+msgid "Show"
+msgstr "Mostrar"
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:23
+msgid "this field if"
+msgstr "este campo si"
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:25
+msgid "All"
+msgstr "De todas"
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:26
+msgid "Any"
+msgstr "Alguna"
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:27
+msgid "of the following match."
+msgstr "del siguiente partido."
+
+#: classes/admin/edit-modal/wct-html-conditional-logic.php:29
+msgid "Add rule"
+msgstr "Añadir regla"
+
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:16
+msgid "Hide/appear as user role"
+msgstr "Ocultar/aparecen como función de usuario"
+
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:22
+msgid "this field if user"
+msgstr "este campo si usuario"
+
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:24
+msgid "Logged in"
+msgstr "Conectado"
+
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:25
+msgid "Not logged in"
+msgstr "Sin acceder a la cuenta"
+
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:29
+msgid "Choose user role"
+msgstr "Elija rol de usuario"
+
+#: classes/admin/edit-modal/wct-html-user-role-logic.php:30
+msgid "All role"
+msgstr "Todo papel"
+
+#: classes/admin/edit-modal/wct-support-field-to-pdf-invoices-packing-slips.php:16
+msgid "Display in PDF Invoices & Packing Slips plugin"
+msgstr ""
+
+#: classes/admin/edit-modal/wct-support-field-to-pdf-invoices-packing-slips.php:21
+msgid "After the document label (Invoice, Packing Slip etc.)"
+msgstr "Después de la etiqueta de documento (factura, albarán, etc.)"
+
+#: classes/admin/edit-modal/wct-support-field-to-pdf-invoices-packing-slips.php:22
+msgid ""
+"Before the order data (invoice number, order date, etc.)note that this is "
+"inside a table, and you should output the data as an html table row/cells"
+msgstr ""
+"Antes de que los datos de la orden (número de factura, fecha de compra, "
+"etc.), tenga en cuenta que esto es dentro de una tabla, y usted debe enviar "
+"los datos como una fila de la tabla html / células"
+
+#: classes/admin/edit-modal/wct-support-field-to-pdf-invoices-packing-slips.php:23
+msgid ""
+"After the order datanote that this is inside a table, and you should output "
+"the data as an html table row/cells"
+msgstr ""
+"Después de la datanote fin de que esto es dentro de una tabla, y usted debe "
+"enviar los datos como una fila de la tabla html / células"
+
+#: classes/admin/edit-modal/wct-support-field-to-pdf-invoices-packing-slips.php:24
+msgid "Before the order details table with all items"
+msgstr "Antes de la tabla de detalles de la orden con todos los artículos"
+
+#: classes/admin/edit-modal/wct-support-field-to-pdf-invoices-packing-slips.php:25
+msgid "After the order details table"
+msgstr "Después de la tabla de detalles de la orden"
+
+#: classes/admin/field-additional-options.php:31
+msgid "Section Name"
+msgstr "Nombre de la sección"
+
+#: classes/admin/field-additional-options.php:32
+#: woocommerce/checkout/form-shipping.php:62
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#: classes/admin/field-additional-options.php:37
+msgid "Checkout Page"
+msgstr "Página de pago"
+
+#: classes/admin/field-additional-options.php:41
+msgid "Checkout Details and Email Receipt"
+msgstr "Pedido Detalles y Correo Recibo"
+
+#: classes/admin/field-additional-options.php:50
+msgid "Label"
+msgstr "Etiqueta"
+
+#: classes/admin/field-additional-options.php:52
+msgid "Option"
+msgstr "Opción"
+
+#: classes/admin/field-additional-options.php:53
+msgid "Choose Type"
+msgstr "Elegir tipo"
+
+#: classes/admin/field-additional-options.php:73
+#: classes/admin/field-additional-options.php:104
+#: classes/class_wct_widget.php:436
+msgid "Text"
+msgstr "Texto"
+
+#: classes/admin/field-additional-options.php:74
+#: classes/admin/field-additional-options.php:105
+msgid "Select"
+msgstr "Seleccionar"
+
+#: classes/admin/field-additional-options.php:75
+#: classes/admin/field-additional-options.php:106
+msgid "Multi Select"
+msgstr "Multiselección"
+
+#: classes/admin/field-additional-options.php:76
+#: classes/admin/field-additional-options.php:107
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: classes/admin/field-additional-options.php:77
+#: classes/admin/field-additional-options.php:108
+msgid "Radio"
+msgstr "Radio"
+
+#: classes/admin/field-additional-options.php:78
+#: classes/admin/field-additional-options.php:109
+msgid "Textarea"
+msgstr ""
+
+#: classes/admin/field-additional-options.php:79
+#: classes/admin/field-additional-options.php:110
+#: classes/admin/field-billing-options.php:88
+#: classes/admin/settings-template-step-2.php:93
+#: classes/admin/support-options-page.php:165
+msgid "Email"
+msgstr "Email"
+
+#: classes/admin/field-additional-options.php:80
+#: classes/admin/field-additional-options.php:111
+msgid "Number"
+msgstr "Número"
+
+#: classes/admin/field-additional-options.php:81
+#: classes/admin/field-additional-options.php:112
+msgid "Date Picker"
+msgstr "Selector de Fecha"
+
+#: classes/admin/field-additional-options.php:82
+#: classes/admin/field-additional-options.php:113
+msgid "Color Picker"
+msgstr "Seleccionador de Color"
+
+#: classes/admin/field-additional-options.php:125
+msgid "+ Add New Field"
+msgstr "+ Añadir nuevo campo"
+
+#: classes/admin/field-billing-options.php:28
+#: classes/admin/field-shipping-options.php:28
+msgid "Field Name"
+msgstr "Nombre del Campo"
+
+#: classes/admin/field-billing-options.php:29
+#: classes/admin/field-shipping-options.php:29
+msgid "Remove Field Entirely"
+msgstr "Eliminar campo"
+
+#: classes/admin/field-billing-options.php:30
+#: classes/admin/field-shipping-options.php:30
+msgid "Remove Required Attribute"
+msgstr "Eliminar Atributo"
+
+#: classes/admin/field-billing-options.php:31
+#: classes/admin/field-shipping-options.php:31
+msgid "Replace Label Name"
+msgstr "Reemplazar etiqueta Nombre"
+
+#: classes/admin/field-billing-options.php:32
+#: classes/admin/field-shipping-options.php:32
+msgid "Replace Placeholder Name"
+msgstr "Marcador de posición"
+
+#: classes/admin/field-billing-options.php:38
+#: classes/admin/field-shipping-options.php:38
+msgid "Select All Check boxes in this Column"
+msgstr "Seleccione todas las casillas en esta columna"
+
+#: classes/admin/field-billing-options.php:48
+#: classes/admin/field-shipping-options.php:48
+#: classes/admin/settings-template-step-2.php:91
+#: classes/admin/settings-template-step-2.php:109
+msgid "First Name"
+msgstr "Nombre"
+
+#: classes/admin/field-billing-options.php:58
+#: classes/admin/field-shipping-options.php:58
+#: classes/admin/settings-template-step-2.php:92
+#: classes/admin/settings-template-step-2.php:110
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: classes/admin/field-billing-options.php:68
+#: classes/admin/field-shipping-options.php:68
+#: classes/admin/settings-template-step-2.php:94
+#: classes/admin/settings-template-step-2.php:111
+msgid "Country"
+msgstr "País"
+
+#: classes/admin/field-billing-options.php:78
+#: classes/admin/settings-template-step-2.php:95
+msgid "Phone"
+msgstr "Phone"
+
+#: classes/admin/field-billing-options.php:98
+#: classes/admin/field-shipping-options.php:79
+#: classes/admin/settings-template-step-2.php:96
+#: classes/admin/settings-template-step-2.php:112
+msgid "Company"
+msgstr "Empresa"
+
+#: classes/admin/field-billing-options.php:108
+msgid "Order Notes"
+msgstr "Notas del Pedido"
+
+#: classes/admin/field-billing-options.php:118
+#: classes/admin/field-shipping-options.php:89
+#: classes/admin/settings-template-step-2.php:97
+#: classes/admin/settings-template-step-2.php:113
+msgid "Address 1"
+msgstr "Dirección 1"
+
+#: classes/admin/field-billing-options.php:128
+#: classes/admin/field-shipping-options.php:99
+#: classes/admin/settings-template-step-2.php:98
+msgid "Address 2"
+msgstr "Dirección 2"
+
+#: classes/admin/field-billing-options.php:138
+#: classes/admin/field-shipping-options.php:109
+#: classes/admin/settings-template-step-2.php:99
+#: classes/admin/settings-template-step-2.php:114
+msgid "City"
+msgstr "Ciudad"
+
+#: classes/admin/field-billing-options.php:148
+#: classes/admin/field-shipping-options.php:119
+msgid "Postal Code"
+msgstr "Código Postal"
+
+#: classes/admin/field-billing-options.php:158
+#: classes/admin/field-shipping-options.php:129
+#: classes/admin/settings-template-step-2.php:101
+#: classes/admin/settings-template-step-2.php:116
+msgid "State"
+msgstr "Provincia"
+
+#: classes/admin/field-options.php:16
+msgid "Billing Section"
+msgstr "Sección de Facturación"
+
+#: classes/admin/field-options.php:17
+msgid "Shipping Section"
+msgstr "Sección de Expedición"
+
+#: classes/admin/field-options.php:18
+msgid "Add Fields"
+msgstr "Agregar campos"
+
+#: classes/admin/settings-template-step-1.php:20
+msgid "Step 1"
+msgstr "Paso 1"
+
+#: classes/admin/settings-template-step-1.php:20
+msgid "Hover on the screen, Slide On to select template."
+msgstr "Pasa el cursor sobre la pantalla, deslice en Seleccionar plantilla."
+
+#: classes/admin/settings-template-step-1.php:20
+msgid "Step 2"
+msgstr "Paso 2"
+
+#: classes/admin/settings-template-step-1.php:20
+msgid "Click Continue to custom checkout fields."
+msgstr "Haga clic en continuar a los campos de pago personalizado."
+
+#: classes/admin/settings-template-step-1.php:32
+msgid "Step - colorful"
+msgstr "Paso - colorido"
+
+#: classes/admin/settings-template-step-1.php:33
+msgid "Step - modern"
+msgstr "Paso a pasos"
+
+#: classes/admin/settings-template-step-1.php:34
+#: classes/class_wct_widget.php:403
+msgid "Flat"
+msgstr ""
+
+#: classes/admin/settings-template-step-1.php:36
+#: classes/class_wct_widget.php:405
+msgid "Progress"
+msgstr "Progreso"
+
+#: classes/admin/settings-template-step-1.php:55
+#: classes/admin/settings-template-step-1.php:122
+msgid "WPML"
+msgstr "WPML"
+
+#: classes/admin/settings-template-step-1.php:57
+msgid "Newsletter"
+msgstr "Boletín de Noticias"
+
+#: classes/admin/settings-template-step-1.php:69
+#: classes/admin/settings-template-step-1.php:85
+#: classes/admin/settings-template-step-1.php:136
+#: classes/admin/settings-template-step-1.php:152
+msgid "On"
+msgstr "En"
+
+#: classes/admin/settings-template-step-1.php:73
+#: classes/admin/settings-template-step-1.php:89
+#: classes/admin/settings-template-step-1.php:140
+#: classes/admin/settings-template-step-1.php:156
+msgid "Off"
+msgstr "Apagado"
+
+#: classes/admin/settings-template-step-1.php:98
+#: classes/admin/settings-template-step-1.php:165
+msgid "OFF"
+msgstr "APAGADO"
+
+#: classes/admin/settings-template-step-1.php:100
+#: classes/admin/settings-template-step-1.php:167
+msgid "ON"
+msgstr "En"
+
+#: classes/admin/settings-template-step-1.php:124
+msgid "Newlleter"
+msgstr ""
+
+#: classes/admin/settings-template-step-1.php:171
+msgid "Blank Page"
+msgstr "Página en blanco"
+
+#: classes/admin/settings-template-step-1.php:173
+msgid "Continue"
+msgstr "Continuar"
+
+#: classes/admin/settings-template-step-2.php:40
+msgid "WooCommerce Default"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:40
+msgid ""
+"This is the default fields & block of WooCommerce, you can find billing, "
+"shipping fields, login form or apply coupon."
+msgstr ""
+"Se trata de los campos y el bloque de WooCommerce por defecto, se puede "
+"encontrar la facturación, los campos de envío, forma de la conexión o "
+"aplicar cupón."
+
+#: classes/admin/settings-template-step-2.php:41
+#: classes/admin/settings-template-step-2.php:139
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: classes/admin/settings-template-step-2.php:41
+msgid ""
+"This is the sidebar, we created 2 sidebar for you, 1 is left-right sidebar, "
+"1 is bottom sidebar, you can add anything you want in the Widgets of "
+"WordPress."
+msgstr ""
+"Esta es la barra lateral hemos creado 2 sidebar para usted, 1 es la barra "
+"lateral de izquierda a derecha, 1 barra lateral inferior, es puede añadirlo "
+"que quieras en los Widgets de WordPress."
+
+#: classes/admin/settings-template-step-2.php:42
+msgid "Custom fields"
+msgstr "Campos personalizados"
+
+#: classes/admin/settings-template-step-2.php:42
+msgid ""
+"This is the custom fields, you can add many of them you want, but remember, "
+"less fields, higher revenue."
+msgstr ""
+"Se trata de los campos personalizados, puede agregar muchos de los que tu "
+"quieras, pero recuerda, menos campos, mayores ingresos."
+
+#: classes/admin/settings-template-step-2.php:43
+msgid "Row - Column"
+msgstr "Fila - columna"
+
+#: classes/admin/settings-template-step-2.php:43
+msgid ""
+"This is the fields container, you must add row first, then add a column "
+"inside then drag-drop elements from the left into that column. Blue border "
+"is Row, Red border is Column."
+msgstr ""
+"Este es el contenedor de los campos, es necesario agregar fila primero, "
+"luego añadir una columna interior y arrastrar-soltar elementos desde la "
+"izquierda en la columna. Frontera azul es fila, columna borde rojo."
+
+#: classes/admin/settings-template-step-2.php:44
+#: classes/admin/settings-template-step-2.php:449
+msgid "Information Storage"
+msgstr "almacenamiento de la información"
+
+#: classes/admin/settings-template-step-2.php:44
+msgid ""
+"Save user's input, save customer's time by save the fields on their computer."
+msgstr ""
+"Guardar entrada del usuario, ahorrar tiempo de cliente por guardar los "
+"campos en su computadora."
+
+#: classes/admin/settings-template-step-2.php:45
+#: classes/admin/settings-template-step-2.php:477
+msgid "Save"
+msgstr "Guardar"
+
+#: classes/admin/settings-template-step-2.php:45
+msgid "Press this to save all changes."
+msgstr "Guardar los cambios"
+
+#: classes/admin/settings-template-step-2.php:46
+msgid "Restore Default"
+msgstr "Restaurar Estándar"
+
+#: classes/admin/settings-template-step-2.php:46
+msgid "In case you want to restore to defualt, please press this."
+msgstr "En caso de que desee restaurar a defualt, presione por favor este."
+
+#: classes/admin/settings-template-step-2.php:59
+#: woocommerce-checkout-fields-templates.php:130
+msgid "Woocommerce"
+msgstr "WooCommerce"
+
+#: classes/admin/settings-template-step-2.php:68
+msgid "Step"
+msgstr "Paso"
+
+#: classes/admin/settings-template-step-2.php:75
+#: classes/admin/settings-template-step-2.php:77
+msgid "Process bar"
+msgstr "Barra de proceso"
+
+#: classes/admin/settings-template-step-2.php:81
+msgid "Account"
+msgstr "Cuenta"
+
+#: classes/admin/settings-template-step-2.php:83
+msgid "New Customer"
+msgstr "Error al crear el nuevo cliente"
+
+#: classes/admin/settings-template-step-2.php:84
+msgid "Login form"
+msgstr "Formulario de ingreso"
+
+#: classes/admin/settings-template-step-2.php:88
+msgid "Billing Detail"
+msgstr "Detalle de facturación"
+
+#: classes/admin/settings-template-step-2.php:100
+#: classes/admin/settings-template-step-2.php:115
+msgid "Postcode / Zip"
+msgstr "Código postal"
+
+#: classes/admin/settings-template-step-2.php:105
+msgid "Shipping Detail"
+msgstr "Detalle de envío"
+
+#: classes/admin/settings-template-step-2.php:108
+#: classes/class_wct_shortcode.php:1308
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr "¿Enviar a una dirección diferente?"
+
+#: classes/admin/settings-template-step-2.php:117
+msgid "Order notes"
+msgstr "Notas del pedido"
+
+#: classes/admin/settings-template-step-2.php:122
+#: classes/admin/settings-template-step-2.php:124
+msgid "Your order"
+msgstr "Su pedido"
+
+#: classes/admin/settings-template-step-2.php:125
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: classes/admin/settings-template-step-2.php:131
+#: classes/admin/settings-template-step-2.php:133
+msgid "Order success"
+msgstr "Orden de éxito!"
+
+#: classes/admin/settings-template-step-2.php:141
+msgid "Sidebar primary"
+msgstr "Barra lateral primaria"
+
+#: classes/admin/settings-template-step-2.php:142
+msgid "Sidebar bottom"
+msgstr "Parte inferior de la barra lateral"
+
+#: classes/admin/settings-template-step-2.php:146
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: classes/admin/settings-template-step-2.php:149
+msgid "Radio field"
+msgstr "Campo de la radio"
+
+#: classes/admin/settings-template-step-2.php:150
+msgid "Check box field"
+msgstr "Control de seguridad."
+
+#: classes/admin/settings-template-step-2.php:151
+msgid "Button field"
+msgstr "Texto del botón:"
+
+#: classes/admin/settings-template-step-2.php:152
+msgid "Date-time field"
+msgstr "Campo de fecha y hora"
+
+#: classes/admin/settings-template-step-2.php:153
+msgid "Dropdown field"
+msgstr "Campo desplegable"
+
+#: classes/admin/settings-template-step-2.php:154
+msgid "Text field"
+msgstr "Campo Texto"
+
+#: classes/admin/settings-template-step-2.php:155
+msgid "Text area field"
+msgstr "Texto está vacío!"
+
+#: classes/admin/settings-template-step-2.php:156
+msgid "Email field"
+msgstr "Campo de Correo electrónico:"
+
+#: classes/admin/settings-template-step-2.php:157
+msgid "Phone field"
+msgstr "Campo Teléfono"
+
+#: classes/admin/settings-template-step-2.php:158
+msgid "File Upload"
+msgstr "Carga de Archivos"
+
+#: classes/admin/settings-template-step-2.php:164
+msgid "Visual Composer"
+msgstr "Visual Composer"
+
+#: classes/admin/settings-template-step-2.php:166
+msgid ""
+"If this is the first time you use builder, you might want to see a tour for "
+"how to use. Click me please."
+msgstr ""
+"Si es la primera vez que utilice el constructor, puede ver un recorrido de "
+"cómo usar. Haz clic en el me por favor."
+
+#: classes/admin/settings-template-step-2.php:254
+msgid "Add New Row"
+msgstr "Añadir la nueva fila"
+
+#: classes/admin/settings-template-step-2.php:261
+msgid "Newsletter marketing provider"
+msgstr "Deseo suscribirme al boletín electrónico"
+
+#: classes/admin/settings-template-step-2.php:274
+msgid "Export subscribers"
+msgstr "Exportar suscriptores desde"
+
+#: classes/admin/settings-template-step-2.php:278
+msgid "Consumer Key"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:287
+msgid "Consumer secret"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:296
+msgid "Access key"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:305
+msgid "Access secret"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:314
+msgid "Account ID"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:321
+#: classes/admin/settings-template-step-2.php:338
+msgid "List ID"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:331
+#: classes/admin/settings-template-step-2.php:348
+msgid "API key"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:355
+msgid "Campaign named"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:369
+msgid "Styling Options"
+msgstr "Opciones de Estilo"
+
+#: classes/admin/settings-template-step-2.php:372
+msgid "Color Scheme"
+msgstr "Esquema de color"
+
+#: classes/admin/settings-template-step-2.php:394
+msgid "Main color"
+msgstr "Color de fuente principal"
+
+#: classes/admin/settings-template-step-2.php:394
+msgid "This is main color. Default: #e35c71"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:395
+msgid "Text color"
+msgstr "Color del texto"
+
+#: classes/admin/settings-template-step-2.php:395
+msgid "This is text color. Default: #7b7979"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:396
+msgid "Link hover color"
+msgstr "Color del link al pasar por encima"
+
+#: classes/admin/settings-template-step-2.php:396
+msgid "This is link hover color. Default: #f7941d"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:397
+msgid "Background color"
+msgstr "Elegir color"
+
+#: classes/admin/settings-template-step-2.php:397
+msgid "This is background color. Default: #ffffff"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:398
+msgid "Border color"
+msgstr "Borde - color"
+
+#: classes/admin/settings-template-step-2.php:398
+msgid "This is border color. Default: #d4d4d4"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:399
+msgid "Title color"
+msgstr "Elegir color"
+
+#: classes/admin/settings-template-step-2.php:399
+msgid "This is title color. Default: #bdbdbd"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:400
+msgid "Button background color"
+msgstr "Texto del botón:"
+
+#: classes/admin/settings-template-step-2.php:400
+msgid "This is Button background color. Default: #e35c71"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:401
+msgid "Button background hover color"
+msgstr "Color del fondo al pasar por encima"
+
+#: classes/admin/settings-template-step-2.php:401
+msgid "This is Button background hover color. Default: #ffffff"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:402
+msgid "Button text color"
+msgstr "Texto del botón:"
+
+#: classes/admin/settings-template-step-2.php:402
+msgid "This is Button text color. Default: #ffffff"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:403
+msgid "Button text hover color"
+msgstr "Color texto al pasar por encima"
+
+#: classes/admin/settings-template-step-2.php:403
+msgid "This is Button text hover color. Default: #e35c71"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:404
+msgid "Price color"
+msgstr "Color precio"
+
+#: classes/admin/settings-template-step-2.php:404
+msgid "This is Price color. Default: #e35c71"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:409
+msgid "This is step billing background. Default: #5ec5ee"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:410
+msgid "Billing step text"
+msgstr "Texto de paso de facturación"
+
+#: classes/admin/settings-template-step-2.php:410
+msgid "This is step billing text color. Default: #7b7979"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:411
+msgid "Billing step content background"
+msgstr "Contenido antecedentes de facturación paso"
+
+#: classes/admin/settings-template-step-2.php:411
+msgid "This is step billing background color. Default: #ffffff"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:413
+msgid "This is step shipping background. Default: #f96161"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:414
+msgid "Shipping step text"
+msgstr "Billing"
+
+#: classes/admin/settings-template-step-2.php:414
+msgid "This is step shipping text color. Default: #7b7979"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:415
+msgid "Shipping step content background"
+msgstr "Contenido antecedentes de envío paso"
+
+#: classes/admin/settings-template-step-2.php:415
+msgid "This is step shipping content background. Default: #ffffff"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:417
+msgid "This is step your order background. Default: #c57fe2"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:418
+msgid "Your order step text"
+msgstr "Precio para su pedido"
+
+#: classes/admin/settings-template-step-2.php:418
+msgid "This is step your order text color. Default: #7b7979"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:419
+msgid "Your order step content background"
+msgstr "Su fondo contenido orden paso"
+
+#: classes/admin/settings-template-step-2.php:419
+msgid "This is your order step content background. Default: #ffffff"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:426
+msgid "Step background"
+msgstr "Fondo de paso"
+
+#: classes/admin/settings-template-step-2.php:426
+msgid "This is step background. Default: #e35c71"
+msgstr ""
+
+#: classes/admin/settings-template-step-2.php:457
+msgid "Store all information"
+msgstr "Información de la tienda"
+
+#: classes/admin/settings-template-step-2.php:460
+msgid "Store all information exclude"
+msgstr "Tienda de excluir a toda la información"
+
+#: classes/admin/settings-template-step-2.php:465
+msgid "Store specific information"
+msgstr "Almacenar información específica"
+
+#: classes/admin/settings-template-step-2.php:478
+msgid "Restore default"
+msgstr "Restaurar Estándar"
+
+#: classes/admin/settings-template-step-2.php:530
+msgid "Drag this block"
+msgstr "Arrastrar este bloque"
+
+#: classes/admin/settings-template-step-2.php:531
+msgid "Edit this block"
+msgstr "Editar este bloque"
+
+#: classes/admin/settings-template-step-2.php:532
+msgid "Style this block"
+msgstr "Estilo de este bloque"
+
+#: classes/admin/settings-template-step-2.php:533
+msgid "Delete this block"
+msgstr "Eliminar este bloque"
+
+#: classes/admin/settings-template-step-2.php:540
+msgid "Custom Row Template"
+msgstr "Plantilla de fila personalizado"
+
+#: classes/admin/settings-template-step-2.php:545
+msgid "Custom Template"
+msgstr "Usar Plantilla Personalizado de Página"
+
+#: classes/admin/settings-template-step-2.php:548
+msgid ""
+"Change particular row layout manually by specifying number of columns and "
+"their size value.Example: 1/4 + 1/2 + 1/4,..."
+msgstr ""
+"Cambiar diseño de fila manualmente especificando el número de columnas y su "
+"valor de tamaño. Ejemplo: 1/4 + 1/2 + 1/4,…"
+
+#: classes/admin/support-options-page.php:90
+msgid "Supports"
+msgstr "Soportes"
+
+#: classes/admin/support-options-page.php:95
+msgid ""
+"Thank you for purchasing my plugin. If you have any questions that are "
+"beyond the scope of this documentation, please feel free to email via my "
+"user page contact form here. Thanks so much!"
+msgstr ""
+"Gracias por comprar mi plugin. Si usted tiene cualquier preguntas que están "
+"más allá del alcance de esta documentación, no dude en correo electrónico a "
+"través de mi usuario página formulario de contacto aquí. ¡ Muchas gracias!"
+
+#: classes/admin/support-options-page.php:147
+#: classes/admin/support-options-page.php:149
+msgid "Subject"
+msgstr "Asunto"
+
+#: classes/admin/support-options-page.php:153
+#: classes/admin/support-options-page.php:155
+msgid "Purchase code"
+msgstr "Introduzca Código"
+
+#: classes/admin/support-options-page.php:159
+msgid "Name"
+msgstr "Nombre"
+
+#: classes/admin/support-options-page.php:161
+msgid "Your Name"
+msgstr "Tu Nombre"
+
+#: classes/admin/support-options-page.php:167
+msgid "Your email"
+msgstr "Email"
+
+#: classes/admin/support-options-page.php:171
+msgid "Question"
+msgstr "Pregunta"
+
+#: classes/admin/support-options-page.php:174
+msgid "-- Select type --"
+msgstr "Seleccionar Tipo"
+
+#: classes/admin/support-options-page.php:175
+msgid "Technical"
+msgstr "Termodinámica"
+
+#: classes/admin/support-options-page.php:176
+msgid "Bug report"
+msgstr "Informe de errores"
+
+#: classes/admin/support-options-page.php:177
+msgid "Feature Request"
+msgstr "Petición de característica"
+
+#: classes/admin/support-options-page.php:182
+msgid "Upload  file"
+msgstr "Cargar un archivo"
+
+#: classes/admin/support-options-page.php:184
+msgid "Paste url file or upload file"
+msgstr "Archivo para subir. EX: jpeg|jpg|png."
+
+#: classes/admin/support-options-page.php:185 classes/class_wct_widget.php:1889
+msgid "Upload"
+msgstr "Subir"
+
+#: classes/admin/support-options-page.php:189
+msgid "Message"
+msgstr "Mensaje"
+
+#: classes/admin/support-options-page.php:196
+msgid "Send"
+msgstr "Enviar"
+
+#: classes/admin/template-options.php:15
+msgid "Template options"
+msgstr "Opciones de plantilla"
+
+#: classes/admin/template-options.php:25
+msgid "1"
+msgstr ""
+
+#: classes/admin/template-options.php:26
+msgid "2"
+msgstr ""
+
+#: classes/admin/template-options.php:27
+msgid "3"
+msgstr ""
+
+#: classes/admin/template-options.php:28
+msgid "4"
+msgstr ""
+
+#: classes/admin/wct-font-awesome.php:15 classes/class_wct_widget.php:482
+msgid "Select an icon for your social"
+msgstr "Seleccione un icono para su social"
+
+#: classes/admin/wct-font-awesome.php:26 classes/class_wct_widget.php:493
+msgid "Search"
+msgstr "Buscar"
+
+#: classes/admin/wct-font-awesome.php:37 classes/class_wct_widget.php:504
+msgid "Web Application Icons"
+msgstr "Iconos de Aplicación Web"
+
+#: classes/admin/wct-font-awesome.php:519 classes/class_wct_widget.php:986
+msgid "Form Control Icons"
+msgstr "Iconos de control de formulario"
+
+#: classes/admin/wct-font-awesome.php:544 classes/class_wct_widget.php:1011
+msgid "Currency Icons"
+msgstr "Iconos de Moneda"
+
+#: classes/admin/wct-font-awesome.php:589 classes/class_wct_widget.php:1056
+msgid "Text Editor Icons"
+msgstr "iconos del editor de texto"
+
+#: classes/admin/wct-font-awesome.php:682 classes/class_wct_widget.php:1149
+msgid "Directional Icons"
+msgstr "Iconos direccionales"
+
+#: classes/admin/wct-font-awesome.php:789 classes/class_wct_widget.php:1256
+msgid "Video Player Icons"
+msgstr "Iconos de Reproductor de vídeo"
+
+#: classes/admin/wct-font-awesome.php:825 classes/class_wct_widget.php:1292
+msgid "Brand Icons"
+msgstr "Iconos de Marca"
+
+#: classes/admin/wct-font-awesome.php:913 classes/class_wct_widget.php:1380
+msgid "Medical Icons"
+msgstr "Iconos médicos"
+
+#: classes/class_wct_admin.php:216
+msgid "WCFT"
+msgstr ""
+
+#: classes/class_wct_admin.php:217
+msgid "Custom Current Template"
+msgstr "Plantilla actual personalizada"
+
+#: classes/class_wct_admin.php:218
+msgid "Support"
+msgstr "Apoyo"
+
+#: classes/class_wct_admin.php:390
+msgid "Checkout page"
+msgstr "Página de pago"
+
+#: classes/class_wct_admin.php:399
+msgid "Checkout page bottom"
+msgstr "Fondo de página de pago"
+
+#: classes/class_wct_admin.php:839
+msgid "Template is blank, please add template."
+msgstr "Plantilla en blanco, por favor agregar plantilla."
+
+#: classes/class_wct_admin.php:900 classes/class_wct_frontend.php:225
+msgid "File upload"
+msgstr "Carga de archivos"
+
+#: classes/class_wct_admin.php:1035
+msgid "is"
+msgstr "es"
+
+#: classes/class_wct_admin.php:1036
+msgid "is not"
+msgstr "no es"
+
+#: classes/class_wct_admin.php:1037
+msgid "contains"
+msgstr "contiene"
+
+#: classes/class_wct_admin.php:1038
+msgid "checked"
+msgstr "comprobado"
+
+#: classes/class_wct_admin.php:1039
+msgid "selected"
+msgstr "seleccionado"
+
+#: classes/class_wct_admin.php:1210
+msgid "WCFT Uploaded to"
+msgstr "WCFT subido a"
+
+#: classes/class_wct_frontend.php:256
+msgid "I want to subscribe to email newsletter"
+msgstr "Deseo suscribirme al boletín electrónico"
+
+#: classes/class_wct_frontend.php:783
+msgid "is a required field"
+msgstr "es un campo obligatorio"
+
+#: classes/class_wct_shortcode.php:873
+msgid "Attach binaries by dropping them here or"
+msgstr "Adjuntar archivos binarios por dejarlos aquí o"
+
+#: classes/class_wct_shortcode.php:873
+msgid "selecting one"
+msgstr "selección de una"
+
+#: classes/class_wct_shortcode.php:1009
+msgid "Text is empty!"
+msgstr "Texto está vacío!"
+
+#: classes/class_wct_shortcode.php:1206
+msgid "Checkout as a Guest"
+msgstr "Comprobación como invitado"
+
+#: classes/class_wct_shortcode.php:1216
+msgid "Create a New account"
+msgstr "Crear una nueva cuenta"
+
+#: classes/class_wct_shortcode.php:1222
+msgid "Register with us for future convenience"
+msgstr "Regístrese con nosotros para la conveniencia futura"
+
+#: classes/class_wct_shortcode.php:1222
+msgid "Fast and easy checkout"
+msgstr "Pago rápido y fácil"
+
+#: classes/class_wct_shortcode.php:1222
+msgid "Easy access to your order history and status"
+msgstr "Fácil acceso a su historial de pedidos y el estado"
+
+#: classes/class_wct_shortcode.php:1321
+msgid "Ordering..."
+msgstr "Ordenar..."
+
+#: classes/class_wct_shortcode.php:1392
+msgid "Order success!"
+msgstr "Orden de éxito!"
+
+#: classes/class_wct_shortcode.php:1397
+msgid "Thanks for ordering."
+msgstr "Gracias por ordenar."
+
+#: classes/class_wct_widget.php:24
+msgid "* WCT coupon"
+msgstr ""
+
+#: classes/class_wct_widget.php:27 classes/class_wct_widget.php:106
+#: classes/class_wct_widget.php:1604 classes/class_wct_widget.php:1685
+#: classes/class_wct_widget.php:1806
+msgid "Widget for checkout template"
+msgstr "Widget para plantilla de pedido"
+
+#: classes/class_wct_widget.php:44
+msgid "Coupon"
+msgstr "Cupón de"
+
+#: classes/class_wct_widget.php:45
+msgid "Coupon code"
+msgstr "Código de cupón"
+
+#: classes/class_wct_widget.php:46
+msgid "Apply Coupon"
+msgstr "Aplicar cupón"
+
+#: classes/class_wct_widget.php:48
+msgid "Please Enable Coupon Usage in Checkout Setting of WooCommerce."
+msgstr "Por favor habilita uso de cupón en caja ajuste de WooCommerce."
+
+#: classes/class_wct_widget.php:61
+msgid "Have a coupon"
+msgstr "Tienes un cupón"
+
+#: classes/class_wct_widget.php:72 classes/class_wct_widget.php:392
+#: classes/class_wct_widget.php:1656 classes/class_wct_widget.php:1759
+#: classes/class_wct_widget.php:1883
+msgid "Title:"
+msgstr "Título:"
+
+#: classes/class_wct_widget.php:76 classes/class_wct_widget.php:1900
+msgid "Description:"
+msgstr "Descripción:"
+
+#: classes/class_wct_widget.php:103
+msgid "* WCT order summary"
+msgstr "* WCT Resumen de la orden"
+
+#: classes/class_wct_widget.php:146
+msgid "Remove Item"
+msgstr "Eliminar elemento"
+
+#: classes/class_wct_widget.php:147
+msgid "Empty Cart"
+msgstr "Carrito vacío"
+
+#: classes/class_wct_widget.php:152 classes/class_wct_widget.php:188
+msgid "Your selection"
+msgstr "Su selección"
+
+#: classes/class_wct_widget.php:158
+msgid "Price for your order"
+msgstr "Precio para su pedido"
+
+#: classes/class_wct_widget.php:165 classes/class_wct_widget.php:194
+msgid "Order Total"
+msgstr "Total de la orden"
+
+#: classes/class_wct_widget.php:382
+msgid "Order summary"
+msgstr "Resumen de la orden"
+
+#: classes/class_wct_widget.php:397
+msgid "Display type:"
+msgstr ""
+
+#: classes/class_wct_widget.php:401
+msgid "Colorful"
+msgstr "Colorido"
+
+#: classes/class_wct_widget.php:402
+msgid "Step by steps"
+msgstr "Paso a pasos"
+
+#: classes/class_wct_widget.php:433
+msgid "Display Type"
+msgstr "Tipo de pantalla"
+
+#: classes/class_wct_widget.php:437
+msgid "Color"
+msgstr ""
+
+#: classes/class_wct_widget.php:439
+msgid "Font icon"
+msgstr "Icono de fuente"
+
+#: classes/class_wct_widget.php:445
+msgid "Chose Color"
+msgstr "Elegir color"
+
+#: classes/class_wct_widget.php:452
+msgid "Upload image"
+msgstr "Upload image"
+
+#: classes/class_wct_widget.php:461
+msgid "Chose icon"
+msgstr "Elegir el icono"
+
+#: classes/class_wct_widget.php:462
+msgid "Select icon"
+msgstr "Icono de selección"
+
+#: classes/class_wct_widget.php:1601
+msgid "* WCT best seller"
+msgstr "* WCT Mejor vendedor"
+
+#: classes/class_wct_widget.php:1651
+msgid "Best Seller"
+msgstr "Mejor vendedor"
+
+#: classes/class_wct_widget.php:1682
+msgid "* WCT product"
+msgstr "* WCT Producto"
+
+#: classes/class_wct_widget.php:1733
+msgid "No product"
+msgstr "Ningún producto"
+
+#: classes/class_wct_widget.php:1744 woocommerce/checkout/review-order.php:17
+msgid "Product"
+msgstr ""
+
+#: classes/class_wct_widget.php:1764
+msgid "Type:"
+msgstr "Tipo:"
+
+#: classes/class_wct_widget.php:1766
+msgid "Recent products"
+msgstr "Productos recientes"
+
+#: classes/class_wct_widget.php:1767
+msgid "Featured products"
+msgstr "Productos destacados"
+
+#: classes/class_wct_widget.php:1772
+msgid "Number:"
+msgstr "Número de:"
+
+#: classes/class_wct_widget.php:1803
+msgid "* WCT advertisement"
+msgstr "* WCT anuncio"
+
+#: classes/class_wct_widget.php:1851
+msgid "Delivery Flower"
+msgstr "Entrega flor"
+
+#: classes/class_wct_widget.php:1861
+msgid "Call us"
+msgstr "Llámenos"
+
+#: classes/class_wct_widget.php:1887
+msgid "Image:"
+msgstr "Imagen:"
+
+#: classes/class_wct_widget.php:1892
+msgid "Button text:"
+msgstr "Texto del botón:"
+
+#: classes/class_wct_widget.php:1896
+msgid "Button link:"
+msgstr "Button link:"
+
+#: classes/class_wct_widget.php:1904
+msgid "Custom code:"
+msgstr "Código personalizado:"
+
+#: classes/class_wct_woocommerce.php:93
+msgid "Login success. You are now logged in as <strong>"
+msgstr "Éxito de inicio de sesión. Ahora está logueado como <strong>"
+
+#: classes/class_wct_woocommerce.php:98
+msgid "Username does not exists"
+msgstr "Nombre de usuario no existe"
+
+#: classes/class_wct_woocommerce.php:102
+msgid "Invalid username"
+msgstr "Nombre de usuario no válido"
+
+#: classes/class_wct_woocommerce.php:107
+msgid "Security check."
+msgstr "Control de seguridad."
+
+#: woocommerce-checkout-fields-templates.php:22
+msgid "Woocommerce checkout fields & templates"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:21
+msgid "You must be logged in to checkout."
+msgstr "Debe estar conectado a la salida."
+
+#: woocommerce/checkout/payment.php:44
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Por favor, rellene sus datos para ver medios de pago disponibles."
+
+#: woocommerce/checkout/payment.php:46
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Lo sentimos, parece que no hay ningún método de pago disponibles para su "
+"estado. Por favor contáctenos si necesita ayuda o desea hacer arreglos "
+"alternativos."
+
+#: woocommerce/checkout/payment.php:57
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"Puesto que su navegador no soporta JavaScript o está desactivado, por favor "
+"asegúrese de que hacer clic el botón <em>Totales de actualización</em> antes "
+"de realizar su pedido. Usted puede cobrar más que la cantidad indicada por "
+"encima si no lo hacen."
+
+#: woocommerce/checkout/payment.php:57
+msgid "Update totals"
+msgstr "Estadísticas totales de actualización"
+
+#: woocommerce/checkout/payment.php:63
+msgid "Place order"
+msgstr "Orden del lugar"
+
+#: woocommerce/checkout/payment.php:67
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+"He leído y acepto la <a href=\"%s\" target=\"_blank\">términos &amp; "
+"condiciones</a>"
+
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/checkout/review-order.php:97
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/checkout/review-order.php:50
+msgid "Subtotal"
+msgstr "Subtotal de"

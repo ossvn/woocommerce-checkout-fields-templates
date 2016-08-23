@@ -1,0 +1,5 @@
+#ossvn-wrapper .uk-accordion-title{margin-top:0;margin-bottom:15px;padding:5px 15px;background:#eee;font-size:18px;line-height:24px;cursor:pointer}
+#ossvn-wrapper .uk-accordion-content{padding:0 15px 15px}
+#ossvn-wrapper .uk-accordion-content:after,#ossvn-wrapper .uk-accordion-content:before{content:"";display:table}
+#ossvn-wrapper .uk-accordion-content:after{clear:both}
+#ossvn-wrapper .uk-accordion-content > :last-child{margin-bottom:0}

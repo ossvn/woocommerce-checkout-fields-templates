@@ -1,0 +1,9 @@
+#ossvn-wrapper .uk-form input[type=radio],#ossvn-wrapper .uk-form input[type=checkbox]{display:inline-block;height:14px;width:14px;border:2px solid #DEDEDE;overflow:hidden;margin-top:-4px;vertical-align:middle;-webkit-appearance:none;outline:0;background:0 0}
+#ossvn-wrapper .uk-form input[type=radio]{border-radius:50%}
+#ossvn-wrapper .uk-form input[type=checkbox]:before,#ossvn-wrapper .uk-form input[type=radio]:before{display:block;content:'';width:8px;height:8px;margin:1px auto 0;border-radius:50%;background:#E35C71;opacity:0;transition:all .4s ease;-moz-transition:all .4s ease;-o-transition:all .4s ease;-ms-transition:all .4s ease;-webkit-transition:all .4s ease}
+#ossvn-wrapper .uk-form input[type=radio]:checked:before{opacity:1}
+#ossvn-wrapper .uk-form input[type=checkbox]:checked:before,#ossvn-wrapper .uk-form input[type=checkbox]:indeterminate:before{content:"\f00c";font-family:FontAwesome;font-size:12px;-webkit-font-smoothing:antialiased;text-align:center;line-height:12px;color:#00a8e6}
+#ossvn-wrapper .uk-form input[type=checkbox]:indeterminate:before{content:"\f068"}
+#ossvn-wrapper .uk-form input[type=checkbox]:disabled,#ossvn-wrapper .uk-form input[type=radio]:disabled{border-color:#ddd}
+#ossvn-wrapper .uk-form input[type=radio]:disabled:checked:before{background-color:#aaa}
+#ossvn-wrapper .uk-form input[type=checkbox]:disabled:checked:before,#ossvn-wrapper .uk-form input[type=checkbox]:disabled:indeterminate:before{color:#aaa}

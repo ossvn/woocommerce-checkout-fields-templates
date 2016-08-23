@@ -1,0 +1,116 @@
+@import "function.less";
+@step2: #000000;
+.ossvn-step-2{
+    #ossvn-wrapper #wct-woo-template{
+#ossvn-header{.bg(@step2);}
+
+.ossvn-title:hover{.c(@step2);}
+
+.form-row-checkbox{
+    .ossvn-block-check-box{
+        &:before{.c(@step2);}
+        &:checked + label{.c(@step2);}
+    }
+}
+.form-row-radio{
+    .ossvn-block-radio{
+        &:before{.bg(@step2);}
+        &:checked + label{.c(@step2);}
+    }
+}
+.form-row-date,.form-row-text,.form-row-email,.form-row-phone{
+    input:focus{border-color: @step2;}
+}
+.form-row-textarea{
+    textarea:focus{border-color: @step2;}
+}
+.ossvn-button{.ba(@step2);.bg(@step2);}
+.ossvn-process-block{
+	.ossvn-process{.ba(@step2,10);.bg(darken(@step2,10%));}}
+
+.ossvn-new-customer-block{
+	.ossvn-select-checkout-method{
+		input[type="radio"]{
+			&:before{.bg(@step2)}
+			&:checked + label{.c(@step2);}}}}
+
+.ossvn-login-block{
+	input.input-text{
+			&:focus{border-color: @step2;}}
+		.ossvn-placeholder{
+			span{.c(@step2);}}
+		input[type="submit"],button{.ba(@step2);.bg(@step2);
+			&:hover{.c(@step2);}}
+	#rememberme{
+		&:before{.c(@step2);}}
+	a{.c(@step2);}}
+
+.ossvn-billing-details{
+	.form-row{
+		.input-text{
+			&:focus{border-color: @step2;}}
+		abbr.required{.c(@step2);}}
+	.woocommerce-invalid .input-text{border-color: @step2;}}
+
+
+	.shipping_address{
+		.form-row{
+			.input-text{
+				&:focus{border-color: @step2;}}
+			abbr.required{.c(@step2);}}
+		.woocommerce-invalid .input-text{border-color: @step2;}}
+	
+	#ship-to-different-address{
+		.input-checkbox{
+			&:before{.c(@step2);}}}
+		
+		#payment{
+			input[type="radio"]{
+				&:before{.bg(@step2);}
+				&:checked + label{.c(@step2);}}
+			.place-order{
+    		    .form-row{
+    		        input[type="checkbox"]{
+    		            &:before{.c(@step2);}
+    		        }
+    		    }
+    		}}
+			
+.ossvn-coupon-block{
+	.coupon{
+		.input-text{
+			&:focus{border-color: @step2;}}
+		.button{.bg(@step2);.ba(@step2);
+			&:hover{.c(@step2);}}}}
+
+.ossvn-order-summary-block{
+	.ossvn-product-order{
+		.ossvn-thumb{
+			span{.c(@step2);}}
+		.ossvn-controls{
+			.ossvn-empty-cart{.c(@step2);
+				.fa{.ba(@step2);.bg(@step2);}
+				&:hover{
+					.fa{.bg(@step2);}}}}
+		.ossvn-item-price{
+			span{.c(@step2);}}
+				
+		.ossvn-size-list{
+			li{
+				&.selected{.c(@step2);
+					&:before{.ba(@step2);}}}}}
+	.flexslider{
+		.flex-direction-nav{
+			a{
+				&:hover{.bg(@step2);border-color: @step2;}}}}}
+
+.ossvn-adv-block{
+	.ossvn-content{
+		.ossvn-btn{
+			&:hover{.bg(@step2);border-color: @step2;}
+		}
+	}
+}
+}
+
+}

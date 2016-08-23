@@ -1,0 +1,390 @@
+/*	
+Version 1.2
+UPDATE .bgi, bg -> Chang px into number
+Version 1.1 
+HOVER in .c,.bgc,.bg
+UPDATE .border_func: Change px into number
+ADD NEW .b-radius-t;.b-radius(update);.b-radius-b;.b-radius-l;.b-radius-r;
+*/
+
+.getnumber(@key;@var) when (isunit(@var,px)) , (isunit(@var,em)) , (isunit(@var,vw)) , (isunit(@var,rem)), (isunit(@var,pt)) , (isunit(@var,'%')){
+	@{key}: @var;
+}
+.getnumber(@key;@var) when not (isnumber(@var)){
+	@{key}: @var;
+}
+.getnumber(@key;@var)  when (default()){
+	@{key}: ~"@{var}px";
+}
+
+
+.bg(@images: none;@top : 0px; @left: 0px; @repeat: no-repeat;) when (@images = none){
+	background: none;
+}
+.bg(@images: none;@top : 0px; @left: 0px; @repeat: no-repeat;) when (iscolor(@images)) and not (iscolor(@top)){
+	background: @images;
+}
+.bg(@images: none;@top : 0px; @left: 0px; @repeat: no-repeat;) when (iscolor(@images)) and (iscolor(@top)){
+	background: @images;
+	&:hover{background: @top;}
+}
+.bg(@images: none;@top : 0px; @left: 0px; @repeat: no-repeat;) when (isstring(@images)) and (isstring(@top)){
+	background: url('../images/@{images}') 0 0 no-repeat;
+	&:hover{background-image: url('../images/@{top}');}
+}
+.bg(@images: none;@x : 0px; @y: 0px; @repeat: no-repeat;) when (default()){
+	& when (isunit(@x,px)) , (isunit(@x,em)) , (isunit(@x,vw)) , (isunit(@x,rem)), (isunit(@x,pt)) , (isunit(@x,'%')){
+		& when (isunit(@y,px)) , (isunit(@y,em)) , (isunit(@y,vw)) , (isunit(@y,rem)), (isunit(@y,pt)) , (isunit(@y,'%')){
+			background: url('../images/@{images}') @x @y @repeat;
+		}
+		& when not (isunit(@y,px)) and not (isunit(@y,em)) and not (isunit(@y,vw)) and not (isunit(@y,rem)) and not (isunit(@y,pt)) and not (isunit(@y,'%')){
+			background: ~'url("../images/@{images}") @{x} @{y}px @{repeat}';
+		}
+	}
+	& when not (isunit(@x,px)) and not (isunit(@x,em)) and not (isunit(@x,vw)) and not (isunit(@x,rem)) and not (isunit(@x,pt)) and not (isunit(@x,'%')){
+		& when (isunit(@y,px)) , (isunit(@y,em)) , (isunit(@y,vw)) , (isunit(@y,rem)), (isunit(@y,pt)) , (isunit(@y,'%')){
+			background: ~'url("../images/@{images}") @{x}px @{y} @{repeat}';
+		}
+		& when not (isunit(@y,px)) and not (isunit(@y,em)) and not (isunit(@y,vw)) and not (isunit(@y,rem)) and not (isunit(@y,pt)) and not (isunit(@y,'%')){
+			background: ~'url("../images/@{images}") @{x}px @{y}px @{repeat}';
+		}
+	}
+}
+.bg-repeat(@images){background: url('../images/@{images}') top center repeat;}
+.bgi(@images){background-image: url('../images/@{images}');}
+.bgp(@x: 0;@y: @x){
+	& when (isunit(@x,px)) , (isunit(@x,em)) , (isunit(@x,vw)) , (isunit(@x,rem)), (isunit(@x,pt)) , (isunit(@x,'%')){
+		& when (isunit(@y,px)) , (isunit(@y,em)) , (isunit(@y,vw)) , (isunit(@y,rem)), (isunit(@y,pt)) , (isunit(@y,'%')){
+			background-position: @x @y;
+		}
+		& when not (isunit(@y,px)) and not (isunit(@y,em)) and not (isunit(@y,vw)) and not (isunit(@y,rem)) and not (isunit(@y,pt)) and not (isunit(@y,'%')){
+			background-position: ~'@{x} @{y}px';
+		}
+	}
+	& when not (isunit(@x,px)) and not (isunit(@x,em)) and not (isunit(@x,vw)) and not (isunit(@x,rem)) and not (isunit(@x,pt)) and not (isunit(@x,'%')){
+		& when (isunit(@y,px)) , (isunit(@y,em)) , (isunit(@y,vw)) , (isunit(@y,rem)), (isunit(@y,pt)) , (isunit(@y,'%')){
+			background-position: ~'@{x}px @{y}';
+		}
+		& when not (isunit(@y,px)) and not (isunit(@y,em)) and not (isunit(@y,vw)) and not (isunit(@y,rem)) and not (isunit(@y,pt)) and not (isunit(@y,'%')){
+			background-position: ~'@{x}px @{y}px';
+		}
+	}
+}
+.bgc(@color: transparent;@hover: i) when (@hover = i){background-color: @color;}
+.bgc(@color: transparent;@hover: i) when (default()){
+	background-color: @color;
+	&:hover{background-color: @hover}
+}
+.bgw(@hover: i){.bg(#fff,@hover);}
+.bgb(@hover: i){.bg(#000,@hover);}
+
+.border_func(@color; @type; @width; @border) when (@color = none){ @{border}: none;}
+.border_func(@color; @type; @width; @border) when not (@color = none) and (isnumber(@type)){ 
+	& when (isunit(@type,px)) , (isunit(@type,em)) , (isunit(@type,vw)) , (isunit(@type,rem)), (isunit(@type,pt)) , (isunit(@type,'%')){
+		@{border}: @type solid @color;
+	}
+	& when not (isunit(@type,px)) and not (isunit(@type,em)) and not (isunit(@type,vw)) and not (isunit(@type,rem)) and not (isunit(@type,pt)) and not (isunit(@type,'%')){
+		@{border}: ~'@{type}px solid @{color}';
+	}
+}
+.border_func(@color; @type; @width; @border) when (default()){ 
+	& when (isunit(@width,px)) , (isunit(@width,em)) , (isunit(@width,vw)) , (isunit(@width,rem)), (isunit(@width,pt)) , (isunit(@width,'%')){
+		@{border}: @width @type @color;
+	}
+	& when not (isunit(@width,px)) and not (isunit(@width,em)) and not (isunit(@width,vw)) and not (isunit(@width,rem)) and not (isunit(@width,pt)) and not (isunit(@width,'%')){
+		@{border}: ~'@{width}px @{type} @{color}';
+	}
+}
+
+.ba(@color : none; @type: solid; @width: 1;) when (iscolor(@type)){ .border_func(@color,solid,@width,border);
+	&:hover{border-color: @type;}
+} 
+.ba(@color : none; @type: solid; @width: 1;) when (default()){ .border_func(@color,@type,@width,border);} 
+.br(@color : none; @type: solid; @width: 1;) when (iscolor(@type)){ .border_func(@color,solid,@width,border-right);
+	&:hover{border-right-color: @type;}
+}
+.br(@color : none; @type: solid; @width: 1;) when (default()){ .border_func(@color,@type,@width,border-right);}
+.bl(@color : none; @type: solid; @width: 1;) when (iscolor(@type)){ .border_func(@color,solid,@width,border-left);
+	&:hover{border-left-color: @type;}
+}
+.bl(@color : none; @type: solid; @width: 1;) when (default()){ .border_func(@color,@type,@width,border-left);}
+.bb(@color : none; @type: solid; @width: 1;) when (iscolor(@type)){ .border_func(@color,solid,@width,border-bottom);
+	&:hover{border-bottom-color: @type;}
+}
+.bb(@color : none; @type: solid; @width: 1;) when (default()){ .border_func(@color,@type,@width,border-bottom);}
+.bt(@color : none; @type: solid; @width: 1;) when (iscolor(@type)){ .border_func(@color,solid,@width,border-top);
+	&:hover{border-top-color: @type;}
+}
+.bt(@color : none; @type: solid; @width: 1;) when (default()){ .border_func(@color,@type,@width,border-top);}
+
+.b-radius(@radius: 0;@right: i;@bottom: @radius;@left: @radius;) when(@right = i){
+	.getnumber(-webkit-border-radius,@radius);
+	.getnumber(-moz-border-radius,@radius);
+	.getnumber(border-radius,@radius);
+}
+.b-radius(@radius: 0;@right: i;@bottom: @radius;@left: @right;) when(default()){
+	.getnumber(-moz-border-radius-topleft,@radius);
+	.getnumber(-webkit-border-top-left-radius,@radius);
+	.getnumber(border-top-left-radius,@radius);
+	
+	.getnumber(-moz-border-radius-topright,@right);
+	.getnumber(-webkit-border-top-right-radius,@right);
+	.getnumber(border-top-right-radius,@right);
+	
+	.getnumber(-moz-border-radius-bottomright,@bottom);
+	.getnumber(-webkit-border-bottom-right-radius,@bottom);
+	.getnumber(border-bottom-right-radius,@bottom);
+	
+	.getnumber(-moz-border-radius-bottomleft,@left);
+	.getnumber(-webkit-border-bottom-left-radius,@left);
+	.getnumber(border-bottom-left-radius,@left);
+}
+.b-radius-l(@radius: 0;@left: @radius){
+	.getnumber(-moz-border-radius-topleft,@radius);
+	.getnumber(-webkit-border-top-left-radius,@radius);
+	.getnumber(border-top-left-radius,@radius);
+	.getnumber(-moz-border-radius-bottomleft,@left);
+	.getnumber(-webkit-border-bottom-left-radius,@left);
+	.getnumber(border-bottom-left-radius,@left);
+}
+.b-radius-r(@right: 0;@bottom: @right){
+	.getnumber(-moz-border-radius-topright,@right);
+	.getnumber(-webkit-border-top-right-radius,@right);
+	.getnumber(border-top-right-radius,@right);
+	.getnumber(-moz-border-radius-bottomright,@bottom);
+	.getnumber(-webkit-border-bottom-right-radius,@bottom);
+	.getnumber(border-bottom-right-radius,@bottom);
+}
+.b-radius-t(@radius: 0;@right: @radius){
+	.getnumber(-moz-border-radius-topleft,@radius);
+	.getnumber(-webkit-border-top-left-radius,@radius);
+	.getnumber(border-top-left-radius,@radius);
+	.getnumber(-moz-border-radius-topright,@right);
+	.getnumber(-webkit-border-top-right-radius,@right);
+	.getnumber(border-top-right-radius,@right);
+}
+.b-radius-b(@left: 0;@bottom: @left){
+	.getnumber(-moz-border-radius-bottomleft,@left);
+	.getnumber(-webkit-border-bottom-left-radius,@left);
+	.getnumber(border-bottom-left-radius,@left);
+	.getnumber(-moz-border-radius-bottomright,@bottom);
+	.getnumber(-webkit-border-bottom-right-radius,@bottom);
+	.getnumber(border-bottom-right-radius,@bottom);
+}
+
+.b-radius100(@hover : i){ .b-radius(100%,@hover); }
+.lh(@var: 0;){.getnumber(line-height,@var);
+	*,&:before,&:after,:before,:after{.getnumber(line-height,@var);}
+}
+.fs(@var: 0; @lh: i) when (@lh = i){	.getnumber(font-size;@var); 
+	*,&:before,&:after,:before,:after{.getnumber(font-size;@var); }
+}
+.fs(@var: 0; @lh: i) when not (@lh = i){ .getnumber(font-size;@var); .lh(@lh);
+	*,&:before,&:after,:before,:after{.getnumber(font-size;@var);}
+}
+.fsi(){ font-style: italic; 
+	*,&:before,&:after,:before,:after{font-style: italic; }
+}
+.fsn(){ font-style: normal; 
+	*,&:before,&:after,:before,:after{font-style: normal; }
+}
+.fs14(){.fs(14)}
+.fs16(){.fs(16)}
+.fs18(){.fs(18)}
+.fs20(){.fs(20)}
+.fs24(){.fs(24)}
+.c(@color,@hover: i) when (@hover = i){color: @color;
+	*,&:before,&:after,:before,:after{color: @color;}
+}
+.c(@color,@hover: i) when (default()){color: @color;	&:hover{color: @hover;}
+	*,&:before,&:after,:before,:after{color: @color;
+		&:hover{color: @hover;}
+	}
+}
+.cw(@hover : i){.c(#fff,@hover);}
+.cb(@hover : i){.c(#000,@hover);}
+.ct(@content: ""){content: @content;}
+.ctfa(@content: ""){.ct(@content); font-family: 'FA';}
+.fw(@var){font-weight: @var;
+	*,&:before,&:after,:before,:after{font-weight: @var;}
+}
+.fwl(){.fw(300)}
+.fwn(){.fw(400)}
+.fwm(){.fw(500)}
+.fwb(){.fw(700)}
+.fwe(){.fw(800)}
+.fwh(){.fw(900)}
+.ttu(){text-transform: uppercase;
+	*,&:before,&:after,:before,:after{text-transform: uppercase;}
+}
+.tal(){text-align: left;
+	*,&:before,&:after,:before,:after{text-align: left;}
+}
+.tar(){text-align: right;
+	*,&:before,&:after,:before,:after{text-align: right;}
+}
+.tac(){text-align: center;
+	*,&:before,&:after,:before,:after{text-align: center;}
+}
+.tdn(){text-decoration: none;
+	*,&:before,&:after,:before,:after{text-decoration: none;}
+}
+.tdu(){text-decoration: underline;
+	*,&:before,&:after,:before,:after{text-decoration: underline;}
+}
+.td(@var: none){ text-decoration: @var;
+	*,&:before,&:after,:before,:after{text-decoration: @var;}
+}
+
+.w(@var: 0;@height: i) when(@height = i){ .getnumber(width,@var); }
+.w(@var: 0;@height: i) when not (@height = i){ .getnumber(width,@var); .getnumber(height,@height); }
+.mxw(@var: 0;@height: i) when(@height = i){ .getnumber(max-width,@var); }
+.mxw(@var: 0;@height: i) when not (@height = i){ .getnumber(max-width,@var); .getnumber(height,@height); }
+.miw(@var: 0;@height: i) when(@height = i){ .getnumber(min-width,@var); }
+.miw(@var: 0;@height: i) when not (@height = i){ .getnumber(min-width,@var); .getnumber(height,@height); }
+.h(@var: 0;@width: i) when (@width = i){.getnumber(height,@var);}
+.h(@var: 0;@width: i) when not (@width = i){.getnumber(height,@var); .getnumber(width,@width); }
+.mxh(@var: 0;@width: i) when (@width = i){.getnumber(max-height,@var);}
+.mxh(@var: 0;@width: i) when not (@width = i){.getnumber(max-height,@var); .getnumber(width,@width); }
+.mih(@var: 0;@width: i) when (@width = i){.getnumber(min-height,@var);}
+.mih(@var: 0;@width: i) when not (@width = i){.getnumber(min-height,@var); .getnumber(width,@width); }
+.w100(@height: i){.w(100%,@height); }
+.w50(@height: i){.w(50%,@height);}
+.w33(@height: i){.w(33.33%,@height);}
+.h100(@width: i){.h(100%,@width);}
+
+.t(@var: 0; @l: i) when (@l = i){.getnumber(top,@var);}
+.t(@var: 0; @l: i) when not (@l = i){.getnumber(top,@var); .getnumber(left,@l); }
+.l(@var: 0; @b: i) when (@b = i){.getnumber(left,@var);}
+.l(@var: 0; @b: i) when not (@b = i){.getnumber(left,@var); .getnumber(bottom,@b); }
+.r(@var: 0; @t: i) when (@t = i){.getnumber(right,@var);}
+.r(@var: 0; @t: i) when not (@t = i){.getnumber(right,@var); .getnumber(top,@t); }
+.b(@var: 0; @r: i) when (@r = i){.getnumber(bottom,@var);}
+.b(@var: 0; @r: i) when not (@r = i){.getnumber(bottom,@var); .getnumber(right,@r); }
+
+.position_func(@top;@left;@position) when (@top = i) and (@left = i){ position: @position; }
+.position_func(@top;@left;@position) when (isnumber(@top)) and (@left = i){ position: @position; .t(@top);}
+.position_func(@top;@left;@position) when (@top = i) and (isnumber(@left)){position: @position; .l(@left);}
+.position_func(@top;@left;@position) when (isnumber(@top)) and (isnumber(@left)){position: @position; .t(@top); .l(@left);}
+
+.pab(@top: i; @left: i;){.position_func(@top,@left,absolute);}
+.pfx(@top: i; @left: i;){.position_func(@top,@left,fixed);}
+.pre(@top: i; @left: i;){.position_func(@top,@left,relative);}
+.pin(@top: i; @left: i;){.position_func(@top,@left,initial);}
+
+.db(){display:block}
+.dn(){display: none}
+.di(){display: inline}
+.dib(){display:inline-block}
+.dt(@div : cell; @var: middle){ display: table; 
+	.@{div}{ display: table-cell; vertical-align: @var; } 
+}
+.dib-ul(@div : li;){ .fs;
+	@{div}{ .dib; } 
+}
+
+.fl(){float: left;}
+.fn(){float: none;}
+.fr(){float: right}
+
+
+.mr(@margin: 0;){.getnumber(margin-right,@margin);}
+.ml(@margin: 0;){.getnumber(margin-left,@margin);}
+.mt(@margin: 0;){.getnumber(margin-top,@margin);}
+.mb(@margin: 0;){.getnumber(margin-bottom,@margin);}
+.m(@margin: 0; @mr: i; @mb: @margin; @ml: @mr;) when (@mr = i){.getnumber(margin,@margin);}
+.m(@margin: 0; @mr: i; @mb: @margin; @ml: @mr;) when not (@mr = i){ margin: ~"@{margin}px @{mr}px @{mb}px @{ml}px"; }
+
+.mc(@var1: 0; @var2: @var1) when (isunit(@var1,px)) , (isunit(@var1,em)) , (isunit(@var1,vw)) , (isunit(@var1,rem)), (isunit(@var1,pt)) , (isunit(@var1,'%')) , (isunit(@var2,px)) , (isunit(@var2,em)) , (isunit(@var2,vw)) , (isunit(@var2,rem)), (isunit(@var2,pt)) , (isunit(@var2,'%')){
+	display: block; margin: ~"@{var1} auto @{var2}"; .fn;
+}
+.mc(@var1: 0; @var2: @var1) when (default()){
+	display: block; margin: ~"@{var1}px auto @{var2}px"; .fn;
+}
+
+
+.pr(@padding: 0){.getnumber(padding-right,@padding);}
+.pl(@padding: 0){.getnumber(padding-left,@padding);}
+.pt(@padding: 0){.getnumber(padding-top,@padding);}
+.pb(@padding: 0){.getnumber(padding-bottom,@padding);}
+.p(@padding: 0px; @pr: i; @pb: @padding; @pl: @pr;) when (@pr = i){.getnumber(padding,@padding);}
+.p(@padding: 0px; @pr: i; @pb: @padding; @pl: @pr;) when not (@pr = i) { padding: ~'@{padding}px @{pr}px @{pb}px @{pl}px'; }
+
+.z1(){z-index: 10}
+.z2(){z-index: 20}
+.z3(){z-index: 30}
+.z4(){z-index: 40}
+.z5(){z-index: 50}
+.z6(){z-index: 60}
+.z7(){z-index: 70}
+.z8(){z-index: 80}
+.z9(){z-index: 99}
+.z99(){z-index: 9999}
+.z(@index){z-index: @index}
+
+.cup(){cursor: pointer;}
+.oh(){ overflow: hidden; }
+.ov(){ overflow: visible; }
+.oln(){ outline: none; }
+.va(@var: top){ vertical-align: @var; }
+.vat(){ .va(top) }
+.vab(){ .va(bottom) }
+.vam(){ .va(middle) }
+.vab(){ .va(baseline) }
+
+.resw(@width; @height: i){width: 100%; .mxw(@width,@height);}
+/* COMBINE */
+.t-l(@top : 0; @left : @top){ .t(@top); .l(@left); }
+.t-r(@top : 0; @right : @top){ .t(@top); .r(@right); }
+.b-l(@bottom : 0; @left : @bottom){ .b(@bottom); .l(@left); }
+.b-r(@bottom : 0; @right : @bottom){ .b(@bottom); .r(@right); }
+.w-h(@w : 0; @h : @w){ .w(@w); .h(@h); }
+
+/* CSS3 */
+.opacity(@opacity: 0){
+	@opacityie : @opacity * 100;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{opacityie})";
+	-moz-opacity: @opacity;
+	-khtml-opacity: @opacity;
+	opacity: @opacity;
+}
+.ani(@time: .4;@s: s;@trans: ease; @select: all){transition: ~"@{select} @{time}@{s} @{trans}";-moz-transition: ~"@{select} @{time}@{s} @{trans}";-o-transition: ~"@{select} @{time}@{s} @{trans}";-ms-transition: ~"@{select} @{time}@{s} @{trans}";-webkit-transition: ~"@{select} @{time}@{s} @{trans}"}
+.placeholder(@color){
+	&::-webkit-input-placeholder{color: @color;}
+	&:-moz-placeholder{color: @color;}
+	&::-moz-placeholder{ color: @color;}
+	&:-ms-input-placeholder{ color: @color;}
+}
+.afcl(){ &:after{.ct; .db; .w; .h; clear:both;overflow:hidden} }
+.rotate(@deg: 0){
+-webkit-transform: ~"rotate(@{deg}deg)";
+-moz-transform: ~"rotate(@{deg}deg)";
+-o-transform: ~"rotate(@{deg}deg)";
+transform: ~"rotate(@{deg}deg)";
+}
+.gray(){
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-ms-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+	&:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(0%);
+	}
+}
+.appearance(){
+appearance: none;
+-moz-appearance: none;
+-o-appearance: none;
+-ms-appearance: none;
+-webkit-appearance: none;
+}
+
